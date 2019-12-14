@@ -1,0 +1,76 @@
+<html>
+<head>
+    <title>WEB 115 Project</title>
+<style type="text/css">
+		.header1 {
+		color: red;
+		font-family: "Tahoma", sans-serif;
+		text-align: center;
+		
+		}
+		
+		.header2 {
+		color: red;
+		font-family: "Garamond", sans-serif;
+		text-align: center;
+		font-style: italic;
+		}
+		
+		.hr {
+		width: 60%;
+		align: center;
+		}
+		
+		.title {
+		text-align: center;
+		font-size: 1.5em;
+		font-family: "Courier";
+		}
+		
+		input[type="text"] {
+		width: 400px;
+		}
+		
+		.spacing {
+		margin-top: 20px;
+		
+		}
+		</style>
+</head>
+<body>
+<script type="text/javascript" src="projectjs.js"></script>
+<form id="resume">
+<input type="text" name="fullName" id="fullName" placeholder="Enter your full name"><br />
+<input type="text" name="address" id="address" placeholder="Enter your address"><br />
+<input type="text" name="phone" id="phone" placeholder="Enter your phone number"><br />
+<input type="text" name="email" id="email" placeholder="Enter your email address"><br />
+<textarea cols="40" rows="8" name="objective" id="objective" class="spacing" placeholder="Enter your career objective"></textarea><br />
+<textarea cols="40" rows="8" name="personal" id="personal" class="spacing" placeholder="Enter your personal information"></textarea><br />
+<textarea cols="40" rows="8" name="education" id="education" class="spacing" placeholder="Enter your educational information"></textarea><br />
+<textarea cols="40" rows="8" name="job1" id="job1" class="spacing" placeholder="Enter your most recent employment experience"></textarea><br />
+<p>Enter your start date</p>
+<input type="date" name="dates" id="startDate1"><br />
+<p>Enter your end date</p>
+<input type="date" name="dates" id="endDate1"><br />
+
+<textarea cols="40" rows="8" name="job2" id="job2" class="spacing" placeholder="Enter your second most recent employment experience"></textarea><br />
+<p>Enter your start date</p>
+<input type="date" name="dates" id="startDate2"><br />
+<p>Enter your end date</p>
+<input type="date" name="dates" id="endDate2"><br />
+<textarea cols="40" rows="8" name="job3" id="job3" class="spacing" placeholder="Enter your third most recent employment experience"></textarea><br />
+<p>Enter your start date</p>
+<input type="date" name="dates" id="startDate3"><br />
+<p>Enter your end date</p>
+<input type="date" name="dates" id="endDate3"><br />
+<textarea cols="40" rows="8" name="job4" id="job4" class="spacing" placeholder="Enter your fourth most recent employment experience"></textarea><br />
+<p>Enter your start date</p>
+<input type="date" name="dates" id="startDate4"><br />
+<p>Enter your end date</p>
+<input type="date" name="dates" id="endDate4"><br />
+<textarea cols="40" rows="8" name="charReference" id="character" class="spacing" placeholder="Enter your character references"></textarea><br />
+<textarea cols="40" rows="8" name="proReference" id="professional" class="spacing" placeholder="Enter your professional references"></textarea><br />
+<input type="button" value="Create Resume" id="clickMe" class="spacing" onclick="resumeCreator()">
+</form>
+</body>
+</html>
